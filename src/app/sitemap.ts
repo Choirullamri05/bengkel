@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { portfolio } from "@/content/portfolio";
 
+export const dynamic = "force-static";
+
 const BASE_URL = "https://bengkellasssmedan.web.id";
 
 export default function sitemap(): MetadataRoute.Sitemap {
