@@ -20,7 +20,8 @@ export function Footer() {
                     {/* Brand */}
                     <div className="lg:col-span-1">
                         <Link href="/" className="flex items-center gap-2 mb-4">
-                            <span className="text-2xl">⚙️</span>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src="/images/specials.jpg" alt={siteConfig.shortName} width={36} height={36} className="rounded-full object-cover" />
                             <span className="font-bold text-lg text-white">
                                 {siteConfig.shortName}
                             </span>

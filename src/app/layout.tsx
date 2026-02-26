@@ -98,6 +98,11 @@ export const metadata: Metadata = {
     "geo.position": "3.585014;98.592019",
     "ICBM": "3.585014, 98.592019",
   },
+  icons: {
+    icon: "/images/specials.jpg",
+    apple: "/images/specials.jpg",
+    shortcut: "/images/specials.jpg",
+  },
 };
 
 export default function RootLayout({
@@ -111,6 +116,9 @@ export default function RootLayout({
         {/* Preconnect for faster font loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Favicon — logo perusahaan */}
+        <link rel="icon" href="/images/specials.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/images/specials.jpg" />
         {/* Resource hints */}
         <link rel="preload" as="image" href="/images/hero-bg.webp" type="image/webp" />
       </head>

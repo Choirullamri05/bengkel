@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import { siteConfig } from "@/content/site";
 import { formatWhatsAppLink } from "@/lib/utils";
 
@@ -47,7 +46,8 @@ export function Navbar() {
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-3">
-                        <Image
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
                             src="/images/specials.jpg"
                             alt={siteConfig.name}
                             width={40}

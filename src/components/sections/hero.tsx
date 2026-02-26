@@ -24,7 +24,7 @@ export function Hero() {
                         loading="eager"
                         decoding="async"
                         className="w-full h-full object-cover"
-                        style={{ filter: "blur(1px) brightness(0.45)" }}
+                        style={{ filter: "blur(4px) brightness(0.45)" }}
                     />
                 </picture>
             </div>
