@@ -7,7 +7,7 @@ const features = [
     {
         icon: "🔧",
         title: "Pengalaman Terpercaya",
-        description: `Lebih dari ${siteConfig.experience.years} tahun melayani pelanggan di Bandung dan sekitarnya dengan hasil kerja yang memuaskan.`,
+        description: `Lebih dari ${siteConfig.experience.years} tahun melayani pelanggan di Medan dan sekitarnya dengan hasil kerja yang memuaskan.`,
     },
     {
         icon: "✨",
@@ -89,3 +89,4 @@ export function About() {
         </section>
     );
 }
+

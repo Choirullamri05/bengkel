@@ -17,8 +17,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         {
             url: BASE_URL,
             lastModified: new Date(),
-            changeFrequency: "weekly",
+            changeFrequency: "weekly" as const,
             priority: 1.0,
+        },
+        {
+            url: `${BASE_URL}/layanan`,
+            lastModified: new Date(),
+            changeFrequency: "monthly" as const,
+            priority: 0.9,
         },
         ...portfolioPages,
     ];
